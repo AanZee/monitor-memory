@@ -1,0 +1,16 @@
+{
+  "name": "monitor-memory",
+  "version": "0.1.0",
+  "description": "Monitor server memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://aanzee.git.beanstalkapp.com/monitor-memory.git"
+  },
+  "keywords": [],
+  "author": "Roy Peters",
+  "license": "ISC"
+}
