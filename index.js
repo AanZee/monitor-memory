@@ -18,5 +18,7 @@ var memoryData = function(callback){
         totalMemory: os.totalmem()
     };
 
+    data.usedPer = ((data.totalMemory - data.freeMemory) / data.totalMemory) * 100;
+
     callback(null, data);
 }
